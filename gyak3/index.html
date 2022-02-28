@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table tr:nth-child(even) {
+            background-color: lightblue;
+        }
+    </style>
+    <title>Sortable Table</title>
+</head>
+<body>
+    <sortable-table>
+        <table>
+            <thead>
+                <tr>
+                    <th>Gyümölcs</th>
+                    <th>Megye</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alma</td>
+                    <td>Békés</td>
+                </tr>
+                <tr>
+                    <td>Szilva</td>
+                    <td>Hajdú-Dorog</td>
+                </tr>
+                <tr>
+                    <td>Gesztenye</td>
+                    <td>Vas</td>
+                </tr>
+            </tbody>
+        </table>
+    </sortable-table>
+
+    <sortable-table>
+        <table>
+            <thead>
+                <tr>
+                    <th>Gyümölcs</th>
+                    <th>Megye</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Körte</td>
+                    <td>Békés</td>
+                </tr>
+                <tr>
+                    <td>Cseresznye</td>
+                    <td>Hajdú-Dorog</td>
+                </tr>
+                <tr>
+                    <td>Barack</td>
+                    <td>Vas</td>
+                </tr>
+            </tbody>
+        </table>
+    </sortable-table>
+
+    <script src="shadow-dom-slot.js"></script>
+</body>
+</html>
