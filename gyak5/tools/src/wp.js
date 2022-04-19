@@ -1,7 +1,7 @@
 const o = {
     a: 1,
-    b: 0
-};
+    b: 2,
+}
 
 const { a: c, b } = o
 

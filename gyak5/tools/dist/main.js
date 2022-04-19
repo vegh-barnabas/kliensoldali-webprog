@@ -1,0 +1,1 @@
+(()=>{const{a:o,b:a}={a:1,b:2};console.log(o)})();
